@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -lt 1 ]; then
-    echo "Please specify mount location of file system"
+    echo "Please specify the mount location of the file system"
     exit -1
 fi
 
