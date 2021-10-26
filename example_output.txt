@@ -1,35 +1,38 @@
 du: cannot read directory 'XXXXXX/XXXXXXXX/XXX/XXXXX/XXXXXXX/XXXXXXXXX/XXXXXXXXX/XXXX': Permission denied
-du: cannot read directory 'XXXXXXXXXXXX/XXXXXXXXXXX/XXXXXX': Permission denied
 du: cannot read directory 'XXXXXXXXXXXX/XXXXXXXXXXX/XXXXXXXXXX': Permission denied
-                 Dir     Gigabytes       Percent        Bytes
- --------------------------------------------------------------------
-      XXXXXXXXXXXXXX     2801.332400     19.735920      3007907791120
-               XXXXX     1224.507800      8.626891      1314805278695
-               XXXXX     1073.780600      7.564989      1152963164946
-               XXXXX     1068.238800      7.525946      1147012684144
-             XXXXXXX      747.076600      5.263297       802167485149
-            XXXXXXXX      685.576900      4.830020       736132693611
-             XXXXXXX      472.332400      3.327672       507163129924
-              XXXXXX      434.489700      3.061063       466529809103
-        XXXXXXXXXXXX      346.079100      2.438193       371599667498
-      XXXXXXXXXXXXXX      149.100800      1.050444       160095806740
-         XXXXXXXXXXX       67.197400      0.473419        72152763095
-                XXXX       66.423600      0.467967        71321830266
-     XXXXXXXXXXXXXXX       56.324800      0.396819        60478334490
-           XXXXXXXXX       23.591300      0.166205        25331004940
-              XXXXXX        7.537600      0.053104         8093449166
-       XXXXXXXXXXXXX        5.167300      0.036405         5548381457
-                XXXX        3.046100      0.021461         3270805331
-              XXXXXX        1.536500      0.010826         1649904928
-              XXXXXX        0.207800      0.001464          223156387
-              XXXXXX        0.104000      0.000733          111689321
-              XXXXXX        0.103900      0.000733          111668610
-                XXXX        0.072500      0.000511           77895551
-              XXXXXX        0.030900      0.000218           33276208
-                 XXX        0.002600      0.000018            2811700
-          XXXXXXXXXX        0.000000      0.000000              16384
+       Gigabytes       Percent                   Bytes    Owner             Item
+ ----------------------------------------------------------------------------------------------------
+     2801.332400     19.735920           3007907791120    XXXXX             D: XXXXXXXXXXXXXX
+     1224.507800      8.626891           1314805278695    XXXXX             D: XXXXX
+     1076.512000      7.584232           1155895970131    XXXXX             D: XXXXX
+     1068.238800      7.525946           1147012684144    XXXXXX            D: XXXXX
+      747.076600      5.263297            802167485149    XXXXX             D: XXXXXXX
+      685.576900      4.830020            736132693611    XXXXXX            D: XXXXXXXX
+      472.332400      3.327672            507163129924    XXXXXXX           D: XXXXXXX
+      434.489700      3.061063            466529809103    XXXXXX            D: XXXXXX
+      240.476900      1.694206            258210136847    XXXXXXXXXXXX      D: XXXXXXXXXXXX
+      149.100800      1.050444            160095806740    XXXX              D: XXXXXXXXXXXXXXX
+      121.045200      0.852787            129971349077    XXXXX             D: XXXXXXXXXXX
+       66.423600      0.467967             71321830266    XXXXXX            D: XXXX
+       56.324800      0.396819             60478334490    XXXXX             D: XXXXXXXXXXXXXXX
+       23.591300      0.166205             25331004940    XXXXX             D: XXXXXXXXX
+        7.537600      0.053104              8093449166    XXXXXX            D: XXXXXX
+        5.167300      0.036405              5548381457    XXXXX             D: XXXXXXXXXXXeXX
+        3.046100      0.021461              3270805331    XXXX              D: XXXX
+        1.536500      0.010826              1649904928    XXXXXX            D: XXXXXX
+        0.207800      0.001464               223156387    XXXX6XX           D: XXXXXX
+        0.104000      0.000733               111689321    XXXXXX            D: XXXXXX
+        0.103900      0.000733               111668610    XXXXXX            D: XXXXXX
+        0.072500      0.000511                77895551    XXXXXX            D: XXXX
+        0.030900      0.000218                33276208    XXXXXX            D: XXXXXX
+        0.002600      0.000018                 2811700    XXXXXX            D: XXX
+        0.000000      0.000000                   16384    XXXX              D: XXXXXXXXXX
+        0.000000      0.000000                    3145    XXXXXX            F: XXXXXXXXXXXXX
+        0.000000      0.000000                      82    XXXXXX            F: XXXXXXXXXXXXXXXXXXXXXXX
+        0.000000      0.000000                       0    XXXXXX            F: XXXXXXXXXXXXXXXXXXXXX
 
- Gigabytes accounted for: 9233.8626 of 14194.0809
- Bytes accounted for:     9914784498764 of 15240778416128
- Percent accounted for:   65.0543182700
- Percent unaccounted for: 34.9456817300
+ GB accounted for:    9184.8395 of 14194.0809
+ Bytes accounted for: 9862146362507 of 15240778416128
+ Percent accounted for:   64.71%
+ Percent unaccounted for: 30.29%
+ Free storage: 5%
