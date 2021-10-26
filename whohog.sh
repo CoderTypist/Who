@@ -96,7 +96,7 @@ gb_dir="$(echo "scale=4;$byte_total/$bytes_per_gb" | bc -l)"
 gb_fs="$(echo "scale=4;$fs_total/$bytes_per_gb" | bc -l)"
 
 echo " GB accounted for:    $gb_dir of $gb_fs"
-echo " bytes accounted for: $byte_total of $fs_total"
+echo " Bytes accounted for: $byte_total of $fs_total"
 printf " Percent accounted for:   %.2f%%\n" "$fs_percent_accounted"
 printf " Percent unaccounted for: %.2f%%\n" "$fs_percent_missing"
 echo " Free storage: ${fs_free}%"
