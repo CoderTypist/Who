@@ -1,0 +1,6 @@
+      USER     LOGIN@       IDLE
+     xxxxx      xx:xx      xx:xx
+     xxxxx      xx:xx      xx:xx
+     xxxxx      xx:xx      xx:xx
+     xxxxx      xx:xx      xx:xx
+     xxxxx      xx:xx      xx:xx
